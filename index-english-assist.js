@@ -16,7 +16,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
-const GEMINI_MODEL = 'gemini-1.5-flash';
+const GEMINI_MODEL = 'gemini-2.5-flash';
 
 app.use(express.json());
 app.use(cors());
